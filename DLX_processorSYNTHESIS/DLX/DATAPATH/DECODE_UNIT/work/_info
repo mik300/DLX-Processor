@@ -1,0 +1,519 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit
+T_opt
+!s110 1697103128
+VhzWNknfD8F>JDf;K9c]M;0
+04 14 4 work tb_decode_unit test 1
+=1-fa8e031b1c84-6527bd17-9907f-6db
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Ccfg_rf_beh
+eregister_file
+aA
+DAx4 work 13 register_file 1 a 22 G:]dbm=J=e0A;IeM`de=R0
+Z1 DPx4 work 9 constants 0 22 =F9>BOaOI06`4GBHAZG?A0
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z6 DEx4 work 13 register_file 0 22 ITEm_F:aFm?KCAa9ioiZF2
+!i122 332
+Z7 w1696603896
+R0
+Z8 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/registerfile.vhd
+Z9 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/registerfile.vhd
+l0
+L59 1
+Vj8AjSJDkcVSYV^dbibnE41
+!s100 dY_;lR`_iA`FC;7:lmPIG3
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1697103122
+!i10b 0
+Z12 !s108 1697103122.000000
+Z13 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/registerfile.vhd|
+Z14 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/registerfile.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Ccfg_testrf
+eTBREGISTERFILE
+aTESTA
+R6
+R2
+R3
+DCx4 work 10 cfg_rf_beh 0 22 j8AjSJDkcVSYV^dbibnE41
+DAx4 work 14 tbregisterfile 5 testa 22 U9bgjYo933fO;0fnWEMob1
+R1
+R4
+R5
+Z17 DEx4 work 14 tbregisterfile 0 22 ]4@]5S4To:IR[lEfk?;271
+!i122 95
+Z18 w1696604181
+R0
+Z19 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/tb_registerfile.vhd
+Z20 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/tb_registerfile.vhd
+l0
+L138 1
+VDkUoOKlXd>84NEdnL7WUS1
+!s100 @lFS<IMGCP`5;W?e[:0=`0
+R10
+32
+Z21 !s110 1696667371
+!i10b 0
+Z22 !s108 1696667371.000000
+Z23 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/tb_registerfile.vhd|
+Z24 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/tb_registerfile.vhd|
+!i113 0
+R15
+R16
+Pconstants
+!i122 331
+w1696600644
+R0
+8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/constants.vhd
+F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/constants.vhd
+l0
+L1 1
+V=F9>BOaOI06`4GBHAZG?A0
+!s100 B[djk;=>HI3M2coL0_C2[2
+R10
+32
+R11
+!i10b 1
+Z25 !s108 1697103121.000000
+!s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/constants.vhd|
+!s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/register_file/constants.vhd|
+!i113 0
+R15
+R16
+Edecode_unit
+Z26 w1697102521
+R1
+R2
+R3
+R4
+R5
+!i122 336
+R0
+Z27 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/decode_unit.vhd
+Z28 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/decode_unit.vhd
+l0
+L6 1
+VhDbTI921:2W4ceQkedi6k0
+!s100 Ek;XTFnBi>[BloA=9_@Y21
+R10
+32
+Z29 !s110 1697103123
+!i10b 1
+Z30 !s108 1697103123.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/decode_unit.vhd|
+Z32 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/decode_unit.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 decode_unit 0 22 hDbTI921:2W4ceQkedi6k0
+!i122 336
+l91
+L30 100
+VYmL>@mNZU[CeP]F025P5V1
+!s100 P[19:Zk_iSSjYc3eK5fWP1
+R10
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R15
+R16
+Emux21_generic
+Z33 w1696667967
+R4
+R5
+!i122 333
+R0
+Z34 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/mux21_generic.vhd
+Z35 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/mux21_generic.vhd
+l0
+L7 1
+VaNGUCGfPl=MgOmEWcN5d10
+!s100 UT@;EPK`gEHaNISJcg]X=0
+R10
+32
+R11
+!i10b 1
+R12
+Z36 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/mux21_generic.vhd|
+Z37 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/mux21_generic.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R4
+R5
+DEx4 work 13 mux21_generic 0 22 aNGUCGfPl=MgOmEWcN5d10
+!i122 333
+l17
+L16 13
+V:>OhZ`[iVJ1lfHkFWSXlO1
+!s100 5zm3jB?lZC;8mVR=h]8EN3
+R10
+32
+R11
+!i10b 1
+R12
+R36
+R37
+!i113 0
+R15
+R16
+Ereg32
+Z38 w1696667458
+R4
+R5
+!i122 329
+R0
+Z39 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg32.vhd
+Z40 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg32.vhd
+l0
+L4 1
+ViogD6Qz8?WQYIOGOcQbCQ1
+!s100 >JA>dGLn[MILS0VV1?37f1
+R10
+32
+Z41 !s110 1697103121
+!i10b 1
+R25
+Z42 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg32.vhd|
+Z43 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg32.vhd|
+!i113 0
+R15
+R16
+Abeh
+R4
+R5
+Z44 DEx4 work 5 reg32 0 22 iogD6Qz8?WQYIOGOcQbCQ1
+!i122 329
+l16
+Z45 L14 16
+V]N5V6W=k:FK:ANSDn8nRC2
+!s100 TYSgz_<_a>CLG0YM6EK7J0
+R10
+32
+R41
+!i10b 1
+R25
+R42
+R43
+!i113 0
+R15
+R16
+Apluto
+R4
+R5
+R44
+!i122 102
+l16
+R45
+Vc14iHgVP8@DbA@=GU8YXz2
+!s100 [<GZiQl0n<[iUMfdgln=]2
+R10
+32
+!s110 1696667489
+!i10b 1
+!s108 1696667488.000000
+!s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/execution_unit/reg32.vhd|
+!s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/execution_unit/reg32.vhd|
+!i113 0
+R15
+R16
+F/home/ms23.37/dlx_processor (copy)/rtl/datapath/execution_unit/reg32.vhd
+w1696611460
+8/home/ms23.37/dlx_processor (copy)/rtl/datapath/execution_unit/reg32.vhd
+Ereg_generic
+Z46 w1696665929
+R4
+R5
+!i122 330
+R0
+Z47 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg_generic.vhd
+Z48 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg_generic.vhd
+l0
+L4 1
+VZg>c@kT:c;g7P`?_>]CCH3
+!s100 5LBoz[MjaOz^VJ3iVUO<=2
+R10
+32
+R41
+!i10b 1
+R25
+Z49 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg_generic.vhd|
+Z50 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/reg_generic.vhd|
+!i113 0
+R15
+R16
+Apluto
+R4
+R5
+DEx4 work 11 reg_generic 0 22 Zg>c@kT:c;g7P`?_>]CCH3
+!i122 330
+l16
+R45
+VQj3Z8]QVS6HK[ig8EkXAi3
+!s100 RDVWAUA@Z_9[5lkLjZZkE1
+R10
+32
+R41
+!i10b 1
+R25
+R49
+R50
+!i113 0
+R15
+R16
+Eregister_file
+R7
+R1
+R2
+R3
+R4
+R5
+!i122 332
+R0
+R8
+R9
+l0
+L6 1
+VITEm_F:aFm?KCAa9ioiZF2
+!s100 bIgaF?V5Ul3bM4O_?a_gg1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Aa
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 332
+l28
+L21 37
+VG:]dbm=J=e0A;IeM`de=R0
+!s100 M<8l0FekCE1DhTkeLMn_30
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Esign_extend
+Z51 w1696604348
+R2
+R3
+R4
+R5
+!i122 334
+R0
+Z52 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend.vhd
+Z53 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend.vhd
+l0
+L6 1
+V0R_NN]OembeBc<c70ilOe3
+!s100 DDB1BhnbUL>D9SYB6>LA]1
+R10
+32
+R29
+!i10b 1
+R12
+Z54 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend.vhd|
+Z55 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R2
+R3
+R4
+R5
+DEx4 work 11 sign_extend 0 22 0R_NN]OembeBc<c70ilOe3
+!i122 334
+l16
+Z56 L14 14
+V1`AWAcT7`lGlS^]SEG`R@0
+!s100 A]EVZ17=PfZ:2G[SK9m]Q1
+R10
+32
+R29
+!i10b 1
+R12
+R54
+R55
+!i113 0
+R15
+R16
+Esign_extend26
+Z57 w1697101204
+R2
+R3
+R4
+R5
+!i122 335
+R0
+Z58 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend26.vhd
+Z59 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend26.vhd
+l0
+L6 1
+VZQG:k54?l`K^@:J;V>RTO1
+!s100 hDbnUDdE;;YOgAm<RIdB81
+R10
+32
+R29
+!i10b 1
+R30
+Z60 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend26.vhd|
+Z61 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/sign_extend26.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R2
+R3
+R4
+R5
+DEx4 work 13 sign_extend26 0 22 ZQG:k54?l`K^@:J;V>RTO1
+!i122 335
+l16
+R56
+V@b<fIJ=In:c_PNCBTi0Bl3
+!s100 67`Sif;EBUYd4kJk[i>[@2
+R10
+32
+R29
+!i10b 1
+R30
+R60
+R61
+!i113 0
+R15
+R16
+Etb_decode_unit
+Z62 w1697103118
+R1
+R2
+R3
+R4
+R5
+!i122 337
+R0
+Z63 8/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/TB_decode_unit.vhd
+Z64 F/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/TB_decode_unit.vhd
+l0
+L7 1
+VAE7_07b8XUY5`2c]ch`AA0
+!s100 ;FUDfZS_HUJH>@zP0LTI_1
+R10
+32
+R29
+!i10b 1
+R30
+Z65 !s90 -reportprogress|300|-work|work|/home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/TB_decode_unit.vhd|
+Z66 !s107 /home/ms23.37/dlx_processor (copy)/rtl/datapath/decode_unit/TB_decode_unit.vhd|
+!i113 0
+R15
+R16
+Atest
+R1
+R2
+R3
+R4
+R5
+DEx4 work 14 tb_decode_unit 0 22 AE7_07b8XUY5`2c]ch`AA0
+!i122 337
+l40
+L11 196
+VNVA^E;DA29`]f<^^@N3G?1
+!s100 PEm0;6QbdIW2PP2GkTJ3X2
+R10
+32
+!s110 1697103124
+!i10b 1
+R30
+R65
+R66
+!i113 0
+R15
+R16
+Etbregisterfile
+R18
+R1
+R4
+R5
+!i122 95
+R0
+R19
+R20
+l0
+L5 1
+V]4@]5S4To:IR[lEfk?;271
+!s100 lF5Fm9dbm`P4R7]RI5gWF0
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16
+Atesta
+R1
+R4
+R5
+R17
+!i122 95
+l34
+L8 128
+VU9bgjYo933fO;0fnWEMob1
+!s100 aH^QMeS?K4WW1FalQGh;c0
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16

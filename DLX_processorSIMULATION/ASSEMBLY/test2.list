@@ -1,0 +1,29 @@
+ line   address	contents
+    1  00000000  382100b8	xori r1,r1,#184 	;r1=184=0xB8
+    2  00000004  38420084	xori r2,r2,#132 	;r2=132=0x84
+    3  00000008  38630004	xori r3,r3,#4		;r3=4
+    4  0000000c  394a0095	xori r10,r10,#149 	;r10=149=0x95
+    5  00000010  54000000	nop
+    6  00000014  00842026	xor r4, r4, r4
+    7  00000018  54000000	nop
+    8  0000001c          	cycle:
+    9  0000001c  594a0002	srli r10,r10,#2 	;arithmetic shift right by 2 bits, r10=0x25
+   10  00000020  00232006	srl r4,r1,r3		;arithmetic shift right by 4 bits, r4=0xB
+   11  00000024  00233004	sll r6,r1,r3		;logical shift left of r1 by 4 bits, r6=0xB80
+   12  00000028  50470005	slli r7,r2,#5		;r7=0x1080
+   13  0000002c  00224029	sne r8,r1,r2		;r8 is set to 1 because r1 and r2 are not equal
+   14  00000030  642900b8	snei r9,r1,#184		;r9 stays at 0 because r1 is equal to 184
+   15  00000034  016a5826	xor r11,r11,r10 	;r11=r10
+   16  00000038  1160ffe0	beqz r11, cycle		;branches only once
+   17  0000003c  54000000	nop
+   18  00000040  02108026	xor r16,r16,r16
+   19  00000044  54000000	nop
+   20  00000048  08000018	j end
+   21  0000004c  54000000	nop
+   22  00000050  00842026	xor r4,r4,r4
+   23  00000054  3a310052	xori r17,r17,#82 	;r17, r18, r19 and r20 will stay 0 as these instructions are jumped over
+   24  00000058  3a520020	xori r18,r18,#32 
+   25  0000005c  3a73002c	xori r19,r19,#44	
+   26  00000060  3a940060	xori r20,r20,#96
+   27  00000064          	end:
+   28  00000064  3ab50006	xori r21,r21,#6

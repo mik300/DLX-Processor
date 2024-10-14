@@ -1,0 +1,74 @@
+[10/19 22:40:09      0s] 
+[10/19 22:40:09      0s] Cadence Innovus(TM) Implementation System.
+[10/19 22:40:09      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[10/19 22:40:09      0s] 
+[10/19 22:40:09      0s] Version:	v20.11-s130_1, built Wed Aug 5 15:53:11 PDT 2020
+[10/19 22:40:09      0s] Options:	
+[10/19 22:40:09      0s] Date:		Thu Oct 19 22:40:09 2023
+[10/19 22:40:09      0s] Host:		localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (12cores*12cpus*QEMU Virtual CPU version 2.5+ 16384KB)
+[10/19 22:40:09      0s] OS:		CentOS Linux release 7.6.1810 (Core) 
+[10/19 22:40:09      0s] 
+[10/19 22:40:09      0s] License:
+[10/19 22:40:09      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[10/19 22:40:09      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[10/19 22:40:57     36s] @(#)CDS: Innovus v20.11-s130_1 (64bit) 08/05/2020 15:53 (Linux 2.6.32-431.11.2.el6.x86_64)
+[10/19 22:40:57     36s] @(#)CDS: NanoRoute 20.11-s130_1 NR200802-2257/20_11-UB (database version 18.20.512) {superthreading v2.9}
+[10/19 22:40:57     36s] @(#)CDS: AAE 20.11-s008 (64bit) 08/05/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[10/19 22:40:57     36s] @(#)CDS: CTE 20.11-s059_1 () Aug  2 2020 05:46:30 ( )
+[10/19 22:40:57     36s] @(#)CDS: SYNTECH 20.11-s028_1 () Aug  1 2020 06:14:27 ( )
+[10/19 22:40:57     36s] @(#)CDS: CPE v20.11-s013
+[10/19 22:40:57     36s] @(#)CDS: IQuantus/TQuantus 19.1.3-s260 (64bit) Thu May 28 10:57:28 PDT 2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[10/19 22:40:57     36s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
+[10/19 22:40:57     36s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[10/19 22:40:57     36s] @(#)CDS: RCDB 11.15.0
+[10/19 22:40:57     36s] @(#)CDS: STYLUS 20.10-p011_1 (06/03/2020 04:47 PDT)
+[10/19 22:40:57     36s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_473_localhost.localdomain_ms23.37_zfxOYD.
+
+[10/19 22:40:57     36s] Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
+[10/19 22:41:00     38s] 
+[10/19 22:41:00     38s] **INFO:  MMMC transition support version v31-84 
+[10/19 22:41:00     38s] 
+[10/19 22:41:00     38s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[10/19 22:41:00     38s] <CMD> suppressMessage ENCEXT-2799
+[10/19 22:41:00     38s] <CMD> win
+[10/19 22:41:52     48s] <CMD> encMessage warning 0
+[10/19 22:41:52     48s] Suppress "**WARN ..." messages.
+[10/19 22:41:52     48s] <CMD> encMessage debug 0
+[10/19 22:41:52     48s] <CMD> encMessage info 0
+[10/19 22:41:54     50s] Loading view definition file from /home/ms23.37/GR37_DLX_basic/DLX_processorFLOORPLAN/dlx_routed.dat/viewDefinition.tcl
+[10/19 22:41:55     51s] **ERROR: (TECHLIB-1346):	The attribute 'index_1' defined in group 'ecsm_waveform' on line 393863 is not monotonically increasing for values '0.000041' to '0.000037'. This may lead to undesirable analysis results. The attribute will be ignored. (File /eda/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**ERROR: (TECHLIB-1256):	The ecsm_waveform group 1 is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for ecsm_waveform group 1 to find the details of the issues in this group. (File /eda/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib, Line 393862)
+**ERROR: (TECHLIB-420):	Number of ecsm_waveforms in the 'rise_transition' table on pin ZN of cell OAI222_X2 does not match the number of transition table axis points specified in the template 'Timing_7_7'. Ignoring waveform data. (File /eda/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib, Line 393848)
+**ERROR: (TECHLIB-1346):	The attribute 'index_1' defined in group 'ecsm_waveform' on line 395723 is not monotonically increasing for values '0.000041' to '0.000037'. This may lead to undesirable analysis results. The attribute will be ignored. (File /eda/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**ERROR: (TECHLIB-1256):	The ecsm_waveform group 1 is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for ecsm_waveform group 1 to find the details of the issues in this group. (File /eda/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib, Line 395722)
+**ERROR: (TECHLIB-420):	Number of ecsm_waveforms in the 'rise_transition' table on pin ZN of cell OAI222_X2 does not match the number of transition table axis points specified in the template 'Timing_7_7'. Ignoring waveform data. (File /eda/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib, Line 395708)
+*** End library_loading (cpu=0.04min, real=0.03min, mem=11.0M, fe_cpu=0.88min, fe_real=1.78min, fe_mem=834.3M) ***
+[10/19 22:41:57     53s] *** Netlist is unique.
+[10/19 22:41:57     53s] Loading preference file /home/ms23.37/GR37_DLX_basic/DLX_processorFLOORPLAN/dlx_routed.dat/gui.pref.tcl ...
+[10/19 22:41:58     53s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[10/19 22:42:02     55s] Loading place ...
+[10/19 22:42:05     56s] {RT standard 0 10 10 {4 1} {7 0} {9 0} 3}
+[10/19 22:42:06     58s] **WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+[10/19 22:42:06     58s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.11-s130_1. They will be removed in the next release. 
+[10/19 22:42:06     58s] timing_enable_default_delay_arc
+[10/19 22:42:12     59s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Thu Oct 19 22:42:12 2023
+  Total CPU time:     0:01:02
+  Total real time:    0:02:06
+  Peak memory (main): 914.49MB
+
+[10/19 22:42:12     59s] 
+[10/19 22:42:12     59s] *** Memory Usage v#2 (Current mem = 1209.559M, initial mem = 272.285M) ***
+[10/19 22:42:12     59s] 
+[10/19 22:42:12     59s] *** Summary of all messages that are not suppressed in this session:
+[10/19 22:42:12     59s] Severity  ID               Count  Summary                                  
+[10/19 22:42:12     59s] WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+[10/19 22:42:12     59s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[10/19 22:42:12     59s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[10/19 22:42:12     59s] ERROR     TECHLIB-420          2  Number of ecsm_waveforms in the '%s' tab...
+[10/19 22:42:12     59s] ERROR     TECHLIB-1256         2  The %s is being ignored due to errors in...
+[10/19 22:42:12     59s] ERROR     TECHLIB-1346         2  The attribute '%s' defined in group '%s'...
+[10/19 22:42:12     59s] *** Message Summary: 3 warning(s), 6 error(s)
+[10/19 22:42:12     59s] 
+[10/19 22:42:12     59s] --- Ending "Innovus" (totcpu=0:00:59.7, real=0:02:03, mem=1209.6M) ---
