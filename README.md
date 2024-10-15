@@ -3,9 +3,10 @@
 This repository contains the VHDL code for the implementation of a DLX processor, as well as scripts for simulation and synthesis.
 
 ### Project Structure
-* simulation/DLX/: VHDL source code for the DLX processor.
-* simulation/: Scripts for automating the simulation process.
-* synthesis/: Scripts for automating the synthesis process.
+* simulation/DLX/: VHDL source code for the DLX processor
+* simulation/SCRIPTS/: Scripts for automating the simulation process
+* synthesis/: Scripts for automating the synthesis process
+* floorplan: Contains the required files for loading the design in Innovus
 
 ### Tools Used
 The scripts provided in this repository are designed to work with the following tools:
