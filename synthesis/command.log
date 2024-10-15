@@ -8033,8 +8033,8 @@ source /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/admin/setup/.synopsys_dc.se
 
 #@ # -- End source /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/admin/setup/.synopsys_dc.setup
 
-source /home/ms23.37/GR37_DLX_basic/DLX_processorSYNTHESIS/.synopsys_dc.setup
-#@ # -- Starting source /home/ms23.37/GR37_DLX_basic/DLX_processorSYNTHESIS/.synopsys_dc.setup
+source /home/ms23.37/GR37_DLX_basic/synthesis/.synopsys_dc.setup
+#@ # -- Starting source /home/ms23.37/GR37_DLX_basic/synthesis/.synopsys_dc.setup
 
 #@ #
 #@ #		".synopsys_dc.setup" Initialization File for
@@ -8084,7 +8084,7 @@ source /home/ms23.37/GR37_DLX_basic/DLX_processorSYNTHESIS/.synopsys_dc.setup
 #@ 
 #@ 
 #@ 
-#@ # -- End source /home/ms23.37/GR37_DLX_basic/DLX_processorSYNTHESIS/.synopsys_dc.setup
+#@ # -- End source /home/ms23.37/GR37_DLX_basic/synthesis/.synopsys_dc.setup
 
 gui_start
 #@ # -- Starting source /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/tcllib/lib/itk4.0.2/itk.tcl
