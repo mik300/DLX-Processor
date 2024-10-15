@@ -1,0 +1,79 @@
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/000-globals.vhd}
+
+vcom -reportprogress 300 -work work ../DLX_processorSIMULATION/DLX/CU/a.a.a.b-myTypes.vhd
+vcom -reportprogress 300 -work work ../DLX_processorSIMULATION/DLX/CU/a.a.a-CU.vhd
+
+vcom -reportprogress 300 -work work ../DLX_processorSIMULATION/DLX/DATAPATH/FETCH_UNIT/a.a.b.a.b-reg_generic3.vhd
+vcom -reportprogress 300 -work work ../DLX_processorSIMULATION/DLX/DATAPATH/FETCH_UNIT/a.a.b.a.a-reg_generic2.vhd
+vcom -reportprogress 300 -work work ../DLX_processorSIMULATION/DLX/DATAPATH/FETCH_UNIT/a.a.b.a-fetch_unit.vhd
+
+
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b.b-reg32.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b.c-reg_generic.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b.f-registerfile.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b.a-mux21_generic.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b.d-sign_extend.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b.e-sign_extend26.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/DECODE_UNIT/a.a.b.b-decode_unit.vhd}
+
+
+
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h-mypackage.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.a.a.a-mux21_generic.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.a.a.b.a-fa.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.a.a.b-rca.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.a.a-carryselblock.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.a-sumGen.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.b.d-XOR_block.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.b.c-general_generate.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.b.a-PG_block.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.b.b-general_prop.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h.b-sparse_tree_carry_gen.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/adder/a.a.b.c.h-P4Adder.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c.a-alu.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c.d-compare_zero.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c.e-reg32.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c.f-reg.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c.g-reg_generic.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c.b-mux21_1bit.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/EXECUTION_UNIT/a.a.b.c-execution_unit.vhd}
+
+
+
+
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/MEMORY_UNIT/a.a.b.d.a-mux21_generic.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/MEMORY_UNIT/a.a.b.d.b-OR_gate.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/MEMORY_UNIT/a.a.b.d.c-reg32.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/MEMORY_UNIT/a.a.b.d-memory_unit.vhd}
+
+
+
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/WRITEBACK_UNIT/a.a.b.e-a-mux41_generic.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/WRITEBACK_UNIT/a.a.b.e-write_back_unit.vhd}
+
+
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/DLX/DATAPATH/a.a.b-Datapath.vhd}
+
+
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/a.a-DLX.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/a.c-IRAM.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/a.b-DRAM.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/a-Top_level.vhd}
+vcom -reportprogress 300 -work work {../DLX_processorSIMULATION/TESTBENCH/TB_DLX.vhd}
+ 
+vsim -t 10ps work.TB_dlx -voptargs=+acc
+add wave -position insertpoint sim:/tb_dlx/top/processor/*
+add wave -position insertpoint sim:/tb_dlx/top/instruction_memory/*
+add wave -position insertpoint  \
+sim:/tb_dlx/top/instruction_memory/IRAM_mem
+add wave -position insertpoint sim:/tb_dlx/top/data_memory/*
+add wave -position insertpoint  \
+sim:/tb_dlx/top/data_memory/REGISTERS
+add wave -position insertpoint sim:/tb_dlx/top/processor/dlx_datapath/*
+add wave -position insertpoint sim:/tb_dlx/top/processor/control_unit/*
+add wave -position insertpoint sim:/tb_dlx/top/processor/dlx_datapath/fetch/PC/*
+add wave -position insertpoint sim:/tb_dlx/top/processor/dlx_datapath/decode/RF_inst/*
+
+run 2 us
+
+

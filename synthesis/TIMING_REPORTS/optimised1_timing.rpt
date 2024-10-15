@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dlx_processor
+Version: S-2021.06-SP4
+Date   : Thu Oct 19 19:24:44 2023
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: DATA_IRAM[28]
+              (input port)
+  Endpoint: RW_DRAM (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dlx_processor      5K_hvratio_1_4        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  DATA_IRAM[28] (in)                                      0.00       0.00 f
+  control_unit/IR_IN[28] (dlx_cu_MICROCODE_MEM_SIZE62_FUNC_SIZE11_OP_CODE_SIZE6_ALU_OPC_SIZE4_IR_SIZE32_CW_SIZE25)
+                                                          0.00       0.00 f
+  control_unit/U104/ZN (INV_X1)                           0.05       0.05 r
+  control_unit/U102/ZN (AND3_X1)                          0.07       0.11 r
+  control_unit/U101/ZN (NAND3_X1)                         0.05       0.17 f
+  control_unit/U99/ZN (NOR2_X1)                           0.06       0.22 r
+  control_unit/U62/ZN (NAND2_X1)                          0.04       0.26 f
+  control_unit/U61/ZN (INV_X1)                            0.03       0.30 r
+  control_unit/DRAM_WE (dlx_cu_MICROCODE_MEM_SIZE62_FUNC_SIZE11_OP_CODE_SIZE6_ALU_OPC_SIZE4_IR_SIZE32_CW_SIZE25)
+                                                          0.00       0.30 r
+  RW_DRAM (out)                                           0.00       0.30 r
+  data arrival time                                                  0.30
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
